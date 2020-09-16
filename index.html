@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Project Embed - YouTube Clone</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo">
+                <a href="https://youtube.com"><img id="youtube-logo" src="./assets/youtube-logo.png" alt="Youtube logo with play button"></a>
+            </div>
+            <div class="search-bar">
+                <input id="searchBar" type="text" placeholder="Search">
+                <img id="search-btn" src="./assets/search-button.png" alt="Search button">
+            </div>
+            <div class="icons">
+                <img id="video-icon" src="./assets/video-icon.png" alt="video camera icon">
+                <img id="menu-icon" src="./assets/menu-icon.png" alt="menu icon">
+            </div>
+        </div>
+
+        <div class="video-element">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <span id="vid-title"><b>Contributing to Open Source Part 1</b></span>
+            <br><br>
+            <span id="views">459 views</span>
+            <br><br>
+            <span id="vid-description">How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. </span>
+
+        </div>
+
+        <div class="related-videos">
+            <div class="thumb-whole">
+                <img class="thumb" src="./assets/thumb1.jpeg">
+                <span class="thumb-title"><b>Professional Thumbnails!</b></span>
+                <span class="thumb-description">Thumbnails you never thought you needed until now</span>
+            </div>
+            <div class="thumb-whole">
+                <img class="thumb" src="./assets/thumb2.jpeg">
+                <span class="thumb-title"><b>More Thumbnails!</b></span>
+                <span class="thumb-description">More thumbnails than you know what to do with!</span>
+            </div>
+            <div class="thumb-whole">
+                <img class="thumb" src="./assets/thumb3.jpeg" alt="thumbnail 3">
+                <span class="thumb-title"><b>Top thumbnail tips & tricks</b></span>
+                <span class="thumb-description">Learn about thumbnails from the very best</span>
+            </div>
+        </div>
+        
+    </body>
+</html>

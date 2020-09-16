@@ -1,0 +1,97 @@
+.navbar {
+    display: block;
+    height: 100px;
+}
+
+.logo {
+    max-height: 100px;
+}
+
+#youtube-logo {
+    height: 40px;
+    padding: 20px 0 0 20px;
+}
+
+.search-bar {
+    float: top;
+    position: relative;
+    margin: -40px 0px 0px 240px;
+}
+
+#searchBar {
+    font-size: 20px;
+    width: 500px;
+    padding: 4px 0 4px 0;
+}
+
+#search-btn {
+    position: absolute;
+    max-height: 32px;
+    padding-top: 1px;
+    border: gray 1px solid;
+}
+
+.icons {
+    float: right;
+    margin: -35px 90px 0 0;
+}
+#menu-icon {
+    height: 32px;
+}
+
+#video-icon {
+    height: 32px;
+    padding-right: 20px;
+}
+
+
+.video-element {
+    float: left;
+    width: 560px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid gainsboro;
+}
+
+#vid-title {
+    font-size: 20px;
+    position: relative;
+    margin: 10px;
+}
+
+#views {
+    padding: 10px;
+    font-size: 14px;
+}
+
+#vid-description {
+    font-size: 14px;
+}
+
+.related-videos {
+    float: right;
+    width: 480px;
+}
+
+.thumb {
+    margin: 10px 0 10px 0;
+    width: 200px;
+}
+
+.thumb-title {
+    position: absolute;
+    font-size: 20px;
+    margin: 10px 0 0 8px;
+}
+
+.thumb-description {
+    position: absolute;
+    margin: 40px 0 0 8px;
+}
+
+.thumb-whole {
+    border-bottom: 1px solid gainsboro;
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+}
